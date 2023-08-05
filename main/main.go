@@ -74,4 +74,40 @@ func main() {
 	sort.Strings(names) // asc
 	fmt.Println(ages)
 	fmt.Println(names)
+
+	// loop
+
+	fmt.Println("Loop")
+
+	animals := []string{"gajah", "harimau", "kerbau"}
+
+	// loop manual
+	for i := 0; i < len(animals); i++ {
+		fmt.Println(animals[i])
+	}
+
+	// array loop get index
+	//for index, value := range animals {
+	//	fmt.Println("Loop in " + strconv.Itoa(index) + " nama " + value)
+	//}
+
+	// array loop without get index
+	for _, value := range animals {
+		fmt.Println("nama " + value)
+	}
+
+	fmt.Println("Condition statement")
+	num1 := 1
+	text1 := "Hello"
+
+	if num1 == 1 {
+		fmt.Println("Ini angka 1")
+	} else if num1 == 2 {
+		fmt.Println("Ini angka 2")
+	} else if text1 == "Hello" {
+		fmt.Println("Hello")
+	} else {
+		fmt.Println(nil)
+	}
+
 }
