@@ -110,4 +110,17 @@ func main() {
 		fmt.Println(nil)
 	}
 
+	a := 4
+	switch a {
+	case 1:
+		fmt.Println("ini angka 1")
+	case 2:
+		fmt.Println("ini angka 2")
+	case 3:
+		fmt.Println("ini angka 3")
+	case 4:
+		fmt.Println("ini angka 4")
+	default:
+		fmt.Println("angka tidak terdaftar")
+	}
 }
