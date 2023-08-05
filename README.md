@@ -27,5 +27,5 @@ Please make sure to update tests as appropriate.
 
 
 ---
-### Happy Coding !
+### Happy learn golang guys !
 
