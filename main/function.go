@@ -21,7 +21,8 @@ func main() {
 	cycleNames(names, sayHello)
 	cycleNames(names, sayBye)
 
-	retunVal(names[0])
+	ret := retunVal(names[0])
+	fmt.Println(ret)
 }
 
 func retunVal(n string) string {
